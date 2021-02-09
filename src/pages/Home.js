@@ -1,14 +1,11 @@
 import React from "react"
+import HomeIntro from "../components/HomeIntro/HomeIntro";
 
 
 
 function Home() {
     return (
-        <div className="home">
-         
-
-
-        </div>
+        <HomeIntro />
 
     );
 };

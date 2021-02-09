@@ -1,14 +1,13 @@
-import React from "react"
+import React from "react";
+import AboutBio from "../components/AboutBio/AboutBio";
+
 
 
 function About() {
     return (
-        <div className="about">
-
-      
-
-
-
+        <div>
+        <h1>About</h1>
+        <AboutBio />
         </div>
     );
 };

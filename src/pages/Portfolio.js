@@ -1,9 +1,13 @@
-import React from "react"
+import React from "react";
+import PortDev from "../components/PortDev/PortDev";
 
 function Portfolio() {
     return (
-        <div className="portfolio">
-       
+        
+        <div>
+            <h1>Portfolio</h1>
+
+            <PortDev />
 
         </div>
     );

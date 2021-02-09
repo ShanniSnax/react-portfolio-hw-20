@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import Headshot from './headshot.jpeg';
 
@@ -9,8 +9,7 @@ const AboutBio = () => {
 
   
   return (
-    <div className="container">
-
+    <Container>
     <Row>
         <Col 
             xs={4}>   
@@ -22,7 +21,7 @@ const AboutBio = () => {
             <p>Follow her on Instagram @shannisuissa.</p>
       </div>
     </Row>
-  </div>
+  </Container>
 
 
 );

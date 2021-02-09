@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import Musicology from './images/musicology.png';
 import IceBox from './images/icebox.png';
 import SelfCare from './images/selfcare.png';
@@ -8,7 +8,7 @@ import Image from 'react-bootstrap/Image';
 function PortDev () {
 
     return (
-
+<Container>
     <Row className="top-margin">
         <Col 
             xs={4} 
@@ -36,7 +36,7 @@ function PortDev () {
                 </a>
         </Col>
     </Row>
-
+    </Container>
 );
 
 };
